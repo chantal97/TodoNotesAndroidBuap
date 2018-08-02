@@ -32,6 +32,7 @@ class NotesAdapter(private val notesList:List<Note>
 
                     item_title.text = note.title
                     item_description.text = note.description
+                    item_date.text = note.date
                     item_title.setOnClickListener { onClick(note) }
 
                 }
@@ -41,4 +42,4 @@ class NotesAdapter(private val notesList:List<Note>
 
 }
 
-data class Note(val title: String, val description: String)
+data class Note(val title: String, val description: String, val date:String)

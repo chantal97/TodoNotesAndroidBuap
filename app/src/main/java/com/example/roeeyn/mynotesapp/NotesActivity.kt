@@ -35,9 +35,9 @@ class NotesActivity : AppCompatActivity() {
     }
 
     fun getSampleNotes():List<Note> = listOf(
-            Note("Ir a la BUAP", "Entrar a mis clases"),
-            Note("Lavar la cocina", "Que quede limpia"),
-            Note("Sacar al perro", "Que se canse")
+            Note("Ir a la BUAP", "Entrar a mis clases", "12-08-2018"),
+            Note("Lavar la cocina", "Que quede limpia", "12-08-2020"),
+            Note("Sacar al perro", "Que se canse", "19-08-2018")
     )
 
 }

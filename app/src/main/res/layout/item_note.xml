@@ -35,8 +35,10 @@
     </LinearLayout>
 
     <TextView
-        android:text="12-07-2018"
+        android:id="@+id/item_date"
+        tools:text="12-07-2018"
         android:textSize="18sp"
+        android:layout_marginBottom="12dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"/>
